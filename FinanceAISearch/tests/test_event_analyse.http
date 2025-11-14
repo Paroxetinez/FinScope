@@ -1,0 +1,31 @@
+# @name analyze_event
+### 测试事件分析 API
+# @timeout = 300000
+POST http://localhost:5000/api/analyze-event
+Content-Type: application/json
+
+{
+    "event_description": "《黑神话：悟空》爆火，引起广泛关注。"
+}
+
+### 测试事件分析 API - 空事件描述
+# @timeout = 300000
+POST http://localhost:5000/api/analyze-event
+Content-Type: application/json
+
+{
+    "event_description": ""
+}
+
+### 测试事件分析 API - 复杂事件
+# @timeout = 300000
+POST http://localhost:5000/api/analyze-event
+Content-Type: application/json
+
+{
+    "event_description": "OpenAI发布GPT-4 Turbo，性能大幅提升，价格降低90%。"
+}
+
+### 变量设置
+@baseUrl = http://localhost:5000
+@timeout = 300000 

@@ -1,0 +1,9 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: requirements
+        name: Update requirements.txt
+        entry: bash -c 'cd FinanceAISearch && pip freeze > requirements.txt'
+        language: system
+        pass_filenames: false
+        always_run: true 

@@ -1,0 +1,91 @@
+{
+    "token_metadata": {
+        "id": 1,
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "category": "coin",
+        "description": "Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 19,808,615. The last known price of Bitcoin is 94,193.9667245 USD and is down -0.78 over the last 24 hours. It is currently trading on 11860 active market(s) with $52,515,094,815.40 traded over the last 24 hours. More information can be found at https://bitcoin.org/."
+    },
+    "aggregated_data": [
+        {
+            "timestamp": "2025-01-10 01:00:00",
+            "open": 92739.28,
+            "high": 94267.16,
+            "low": 92739.28,
+            "close": 94267.16,
+            "EMA_12_avg": 93034.11,
+            "EMA_26_avg": 92896.54,
+            "MACD_avg": 137.57,
+            "MACD_Signal_avg": 55.21,
+            "MACD_Hist_avg": 82.36,
+            "RSI_avg": 47.88,
+            "Bollinger_High_avg": 95813.11,
+            "Bollinger_Low_avg": 92807.69,
+            "Bollinger_Middle_avg": 94310.4
+        },
+        {
+            "timestamp": "2025-01-10 08:00:00",
+            "open": 94487.69,
+            "high": 95227.55,
+            "low": 93619.86,
+            "close": 93619.86,
+            "EMA_12_avg": 94035.59,
+            "EMA_26_avg": 93536.77,
+            "MACD_avg": 498.82,
+            "MACD_Signal_avg": 328.83,
+            "MACD_Hist_avg": 169.99,
+            "RSI_avg": 47.88,
+            "Bollinger_High_avg": 95813.11,
+            "Bollinger_Low_avg": 92807.69,
+            "Bollinger_Middle_avg": 94310.4
+        },
+        {
+            "timestamp": "2025-01-10 15:00:00",
+            "open": 94106.83,
+            "high": 95750.38,
+            "low": 93638.68,
+            "close": 94674.35,
+            "EMA_12_avg": 94334.93,
+            "EMA_26_avg": 93925.4,
+            "MACD_avg": 409.53,
+            "MACD_Signal_avg": 419.18,
+            "MACD_Hist_avg": -9.65,
+            "RSI_avg": 56.84,
+            "Bollinger_High_avg": 95813.11,
+            "Bollinger_Low_avg": 92807.69,
+            "Bollinger_Middle_avg": 94310.4
+        },
+        {
+            "timestamp": "2025-01-10 22:00:00",
+            "open": 94629.74,
+            "high": 94741.99,
+            "low": 94396.44,
+            "close": 94423.71,
+            "EMA_12_avg": 94593.22,
+            "EMA_26_avg": 94245.2,
+            "MACD_avg": 348.02,
+            "MACD_Signal_avg": 395.33,
+            "MACD_Hist_avg": -47.31,
+            "RSI_avg": 53.82,
+            "Bollinger_High_avg": 95709.78,
+            "Bollinger_Low_avg": 93396.58,
+            "Bollinger_Middle_avg": 94553.18
+        },
+        {
+            "timestamp": "2025-01-11 04:00:00",
+            "open": 94175.07,
+            "high": 94341.77,
+            "low": 94031.49,
+            "close": 94048.01,
+            "EMA_12_avg": 94399.58,
+            "EMA_26_avg": 94266.37,
+            "MACD_avg": 133.21,
+            "MACD_Signal_avg": 250.25,
+            "MACD_Hist_avg": -117.04,
+            "RSI_avg": 48.94,
+            "Bollinger_High_avg": 95594.97,
+            "Bollinger_Low_avg": 93438.29,
+            "Bollinger_Middle_avg": 94516.63
+        }
+    ]
+}

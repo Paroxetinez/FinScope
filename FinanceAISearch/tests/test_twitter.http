@@ -1,0 +1,31 @@
+### 测试事件分析并发推特
+POST http://localhost:5000/api/publish-tweet
+Content-Type: application/json
+
+{
+    "event_description": "《黑神话：悟空》爆火，引起广泛关注。游戏上线首日，Steam同时在线人数突破10万，获得极高评价。"
+}
+
+### 测试事件分析（不发推特，用于预览分析结果）
+POST http://localhost:5000/api/analyze-event
+Content-Type: application/json
+
+{
+    "event_description": "《黑神话：悟空》爆火，引起广泛关注。游戏上线首日，Steam同时在线人数突破10万，获得极高评价。"
+}
+
+### 测试其他热点事件
+POST http://localhost:5000/api/publish-tweet
+Content-Type: application/json
+
+{
+    "event_description": "OpenAI发布GPT-4 Turbo，性能大幅提升，价格降低90%。"
+}
+
+### 测试金融相关事件
+POST http://localhost:5000/api/publish-tweet
+Content-Type: application/json
+
+{
+    "event_description": "比亚迪发布2023年业绩报告，净利润大幅增长。"
+} 
